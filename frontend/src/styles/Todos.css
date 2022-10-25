@@ -1,0 +1,21 @@
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app__todo {
+  background-image: linear-gradient(to right, #8a2eff, #cce0ff);
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.todo_heading {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+  color: white;
+}

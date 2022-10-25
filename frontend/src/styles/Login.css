@@ -1,0 +1,122 @@
+.app__login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  width: 200px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login__container {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  height: fit-content;
+  box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.login__container__email {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 50%;
+  padding: 20px;
+  padding-top: 80px;
+}
+.error_message {
+  color: red;
+}
+.login__container__email > h1 {
+  font-weight: 500;
+  margin-bottom: 18px;
+  text-align: center;
+  color: rgb(36, 36, 36);
+}
+.login__container__email > form > label {
+  margin-bottom: 10px;
+  font-size: medium;
+  color: rgb(36, 36, 36);
+}
+.login__container__email > form > input {
+  height: 40px;
+  margin-bottom: 15px;
+  background-color: white;
+  width: 98%;
+  border: solid 0.5px lightgray;
+  outline: none;
+  border-width: 0.5px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #888888;
+  border-radius: 3px;
+}
+.login__button {
+  width: 100%;
+  height: 45px;
+  border: 1px solid;
+  margin-top: 15px !important;
+  border-color: beige;
+}
+.login__container__email > p {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+.login__container__email > span {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login__container__oAuth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  width: 50%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(113, 197, 238),
+    rgb(2, 80, 145)
+  );
+}
+.login__container__divider {
+  padding-left: 5px;
+}
+.vl {
+  border-left: 0.5px solid rgb(159, 157, 157);
+  height: 80px;
+  margin-left: 7.5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.login__container__divider > h5 {
+  text-transform: uppercase;
+}
+.login__google {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 18px;
+  padding-right: 30px;
+}
+.google_icon {
+  object-fit: contain;
+  height: 20px;
+  width: 30px;
+  margin-left: -40px;
+  margin-right: 20px;
+}
+.login__button__google {
+  color: white !important;
+  border-color: white !important;
+  height: 45px;
+  width: 100%;
+}
